@@ -11,6 +11,7 @@ import com.doceree.androidadslibrary.networking.request.Hcp;
 
 public class DocereeActivity extends AppCompatActivity {
 
+    
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

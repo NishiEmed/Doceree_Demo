@@ -15,9 +15,6 @@ android {
         multiDexEnabled true
         vectorDrawables.useSupportLibrary = true
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
-        configurations.all {
-            resolutionStrategy { force 'androidx.core:core-ktx:1.6.0' }
-        }
     }
 
     buildTypes {
